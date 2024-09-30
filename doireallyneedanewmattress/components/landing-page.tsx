@@ -88,7 +88,7 @@ export function LandingPage() {
                   onChange={(e) => setInput(e.target.value)}
                   className="flex-1 mr-2 border-blue-200 focus:ring-indigo-500 focus:border-indigo-500"
                 />
-                <Button onClick={handleSend} size="icon" className="bg-indigo-600 hover:bg-indigo-700">
+                <Button onClick={handleSend} className="bg-indigo-600 hover:bg-indigo-700">
                   <Send className="h-4 w-4" />
                   <span className="sr-only">Send</span>
                 </Button>
